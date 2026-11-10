@@ -1,0 +1,63 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-color: gray;
+    margin:0;
+    display:flex;
+    justify-content: center;
+}
+#chatbox{
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+h1{
+    margin: 0;
+    padding: 15px;
+    background-color: lightblue;
+}
+
+#messages{
+    height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.msg{
+    margin:8px 0;
+    padding:10px 15px;
+    border-radius: 10px;
+    width:80%;
+}
+
+.user{
+    background-color: black;
+    color: white;
+    margin-left: auto;
+}
+
+.bot{
+    background-color: lightblue;
+}
+
+#inputRow{
+    display: flex;
+    gap:10px;
+    border-top: 1px solid black;
+}
+
+input{
+    padding: 10px;
+    flex:1;
+    border: none;
+    font-size: 20px;
+}
+
+button{
+    padding:10px 20px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
